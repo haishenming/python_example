@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5f0257fe8c7a73db1c8de519faa92c658282a01087eb2bfafba7962704c23e27"
+            "sha256": "6d38990fb9e40280b8f5fa8bd7af47489dee47cbac944cf23499accbeaae0065"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -21,11 +21,20 @@
         "sources": [
             {
                 "name": "pypi",
-                "url": "https://pypi.python.org/simple",
+                "url": "https://pypi.douban.com/simple",
                 "verify_ssl": true
             }
         ]
     },
-    "default": {},
+    "default": {
+        "django": {
+            "hashes": [],
+            "version": "==2.0"
+        },
+        "pytz": {
+            "hashes": [],
+            "version": "==2017.3"
+        }
+    },
     "develop": {}
 }

@@ -7,7 +7,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((HOST, PORT))
 s.listen(5)
 
-print('Server start at: %s:%s' %(HOST, PORT))
+print('Server start at: %s:%s' % (HOST, PORT))
 print('wait for connection...')
 
 while True:
