@@ -156,5 +156,5 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-将删除 .idea/
+.idea/
 
