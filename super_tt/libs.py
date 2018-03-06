@@ -6,18 +6,18 @@ class Root:
 
 class A1(Root):
     def __init__(self):
-        super(A1, self).__init__()
+        super().__init__()
         print("this is A1")
 
 class A2(Root):
     def __init__(self):
-        super(A2, self).__init__()
+        super().__init__()
         print("this is A2")
 
 
 class B(A1, A2):
     def __init__(self):
-        super(B, self).__init__()
+        super().__init__()
         print("this is B")
 
 if __name__ == '__main__':

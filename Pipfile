@@ -1,13 +1,20 @@
 [[source]]
 
-name = "pypi"
-url = "https://pypi.douban.com/simple"
 verify_ssl = true
+url = "https://pypi.python.org/simple"
+name = "pypi"
 
 
 [packages]
 
-django = "*"
+aiohttp = "*"
+aiodns = "*"
+cchardet = "*"
+
+
+[requires]
+
+python_version = "3.6"
 
 
 [dev-packages]
